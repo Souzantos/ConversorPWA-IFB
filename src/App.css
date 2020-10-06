@@ -64,7 +64,8 @@ body{
 .show{display: block !important;}
 .hide{display: none !important;}
 
-.TabelaB{
-  width: 50% !important;
-  margin: auto;
+tab{
+  padding: 5px;
+  display: inline-block;
+  
 }

@@ -234,19 +234,17 @@ render() {
         <InputNumber value={this.state.medidaIN} onValueChange={(e) => this.setState({medidaIN: e.value})} minFractionDigits={2} /><br></br>
         <br></br>
         <div>
-          <table className="TabelaB">
-            <tr>
-            <td>
+            <tab>
             <Button label="Km -> Milhas" onClick={this.calcularKM} className="Botao"> </Button>
-            </td>
-            <td>
+            </tab>
+            <tab>
             <Button label="Kg -> Pounds" onClick={this.calcularKG} className="Botao"> </Button>
-            </td>
-            <td>
+            </tab>
+            <tab>
             <Button label="Cº -> Fº" onClick={this.calcularCelsius} className="Botao"> </Button>
-            </td>
-            </tr>
-          </table>
+            </tab>
+           
+         
         </div>
         <div>
         <h1> 
