@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://economia.awesomeapi.com.br/json/all/${this.state.moedas}'
+  baseURL: 'https://economia.awesomeapi.com.br/json/USD-BRL'
 });
 
 export default api;
